@@ -190,4 +190,82 @@
     padding-top: 4.8rem;
 }
 
+.skills-text{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.6rem 9.6rem;
+    color: black;
+    margin-bottom: 3.2rem;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap:2.4rem ;
+    column-gap:4.8rem;
+}
+
+.skill-icons{
+    height: 8rem;
+    width: 8rem;
+    margin-bottom: 1.6rem;
+}
+
+.html{
+    color: #ff4500;
+}
+
+.css{
+    color:#2965F1;
+}
+
+.js{
+    color: #F7DF1E;
+    background-color: #000;
+    border: none;
+}
+
+.python{
+    color: #3776AB;
+}
+
+.api{
+    color:#5f5ffc ;
+}
+
+.django{
+    color: #092E20;
+}
+
+.git{
+    color: #F05032;
+}
+
+.ML{
+    color: #3498DB;
+}
+
+.react{
+    color: #61DAFB;
+}
+
+.docker{
+    color: #2496ED;
+}
+
+.nodejs{
+    color: #339933;
+}
+
+.skills-grid span{
+    display: block;
+    color: #000;
+    font-size: 1.6rem;
+}
+
 
