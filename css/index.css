@@ -269,3 +269,106 @@
 }
 
 
+/* portfolio section */
+.portfolio{
+    background-image: url(../images/Profile.jpg);
+    height: 20rem;
+    background-position: top;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.portfolio-text-section{
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 700;
+    z-index: 10;
+    padding-top: 10rem;
+
+}
+
+/* my portfolio */
+.my-portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+.project-wrapper{
+    overflow: hidden;
+}
+
+.project:link, .project:visited{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.omnifood{
+    background-image:linear-gradient(to right bottom, rgba(77, 77, 77, 0.60),rgba(77, 77, 77, 0.60)), url(../images/omnifood.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+}
+
+.blog{
+    background-image:linear-gradient(to right bottom, rgba(77, 77, 77, 0.60),rgba(77, 77, 77, 0.60)), url(../images/blog.png);
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+
+}
+
+.apis{
+    background-image:linear-gradient(to right bottom, rgba(77, 77, 77, 0.60),rgba(77, 77, 77, 0.60)), url(../images/api.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+
+}
+
+.imgclassification{
+    background-image:linear-gradient(to right bottom, rgba(77, 77, 77, 0.60),rgba(77, 77, 77, 0.60)), url(../images/cat.png);
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+    
+}
+
+.priceprediction{
+    background-image:linear-gradient(to right bottom, rgba(77, 77, 77, 0.60),rgba(77, 77, 77, 0.60)), url(../images/price.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+
+}
+
+.heartdiseaseanalysis{
+    background-image:linear-gradient(to right bottom, rgba(77, 77, 77, 0.60),rgba(77, 77, 77, 0.60)), url(../images/heart.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+
+}
+
+.project:hover, .project.active{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
