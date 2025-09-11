@@ -25,50 +25,6 @@
 
 /* smaller tabs 750 */
 @media (max-width: 47em) {
-    .hero-img{
-        display: none;
-        pointer-events: none;
-        visibility: hidden;
-    }
-
-
-    .hero-grid{
-        grid-template-columns: 1fr;
-        gap: 0rem;
-    }
-
-    .hero-intro{
-        font-size: 1.6rem;
-        margin-bottom: 0.8rem;
-    }
-
-    .hero-text-box{
-        background-image: url(../images/Profile.jpg);
-        background-position: center;
-        background-size:cover;
-        height: 100vh;
-    }
-
- 
-    .hero-name{
-        margin-bottom: 0.4rem;
-    }
-
-
-    .download-btn:link, .download-btn:visited {
-        margin-bottom: 0.4rem;
-    }
-
-    .social-links{
-        flex-direction: column;
-        gap: 1.2rem;
-    }
-
-    .social-logo{
-        margin-top: 0;
-        height: 1.2rem;
-        width: 1.2rem;
-
-    }
+   
 
 }
