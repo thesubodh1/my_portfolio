@@ -48,11 +48,13 @@
     color: white;
     padding: 1.2rem 2.4rem;
     background-color: #000;
+    display: inline-block;
     transition: all 0.3s;
 }
 
 .download-btn:hover, .download-btn:active{
     background-color:#666666 ;
+    
 }
 
 .social-links{
