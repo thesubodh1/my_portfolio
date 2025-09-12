@@ -25,6 +25,10 @@
 
 /* smaller tabs 750 */
 @media (max-width: 47em) {
+  .section-hero{
+    padding-top: 0;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
     background-color: transparent;
@@ -32,7 +36,12 @@
 
   .hero-text-box::before {
     content: "";
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)) ,url(../images/Profile.jpg);
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../images/Profile.jpg);
     background-position: center;
     background-size: cover;
     opacity: 0.5;
@@ -70,6 +79,7 @@
   }
 
   .hero-intro {
+    padding-top: 2rem;
     color: #fff;
   }
 
@@ -79,6 +89,7 @@
 
   .hero-desc {
     color: #fff;
+    margin-bottom: 2.4rem;
   }
 
   .social-links {
@@ -92,21 +103,61 @@
     margin: 0;
   }
 
-  .download-btn:link, .download-btn:visited{
+  .download-btn:link,
+  .download-btn:visited {
     font-size: 2rem;
     background-color: #fcfcfc;
     color: #000;
     width: 600;
+    margin-bottom: 2rem;
   }
 
-  .social-logo{
+  .social-logo {
     background-color: #fff;
   }
 
-  .aside-text-box{
+  .aside-text-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    width: 60%;
+    transform: translateX(40%);
+  }
+
+  .development {
+    grid-column: 1;
+  }
+
+  .maintanance {
+    grid-column: 1;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .my-portfolio {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* below 580 */
+@media (max-width: 36em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .about-heading {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+
+  .about-text{
+    line-height: 1.5;
   }
 }
