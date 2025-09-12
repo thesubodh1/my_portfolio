@@ -1,7 +1,7 @@
 /* for smaller laptops or computers 1300px */
 @media (max-width: 81em) {
-  .container {
-    max-width: 110rem;
+  .section-hero{
+    padding-top: 0.5rem;
   }
 }
 
@@ -11,8 +11,8 @@
     font-size: 56.25%;
   }
 
-  .container {
-    max-width: 105rem;
+  .container{
+    max-width: 130rem;
   }
 }
 
@@ -20,6 +20,10 @@
 @media (max-width: 56em) {
   html {
     font-size: 50%;
+  }
+
+    .container {
+    max-width: 110rem;
   }
 }
 
@@ -159,5 +163,13 @@
 
   .about-text{
     line-height: 1.5;
+  }
+}
+
+
+/* below 455 Mobile screen */
+@media (max-width:28.4em){
+    html {
+    font-size: 37.5%;
   }
 }
